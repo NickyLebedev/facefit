@@ -1,0 +1,28 @@
+{
+  "name": "facefit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "facefit.umd.js",
+  "module": "facefit.es5.js",
+  "typings": "",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lodash.camelcase": "^4.3.0",
+    "rollup": "^0.56.5",
+    "rollup-plugin-commonjs": "^9.0.0",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-node-resolve": "^3.2.0",
+    "rollup-plugin-typescript": "^0.8.1",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "jsfeat": "git+https://github.com/inspirit/jsfeat",
+    "mosse": "^0.1.1",
+    "numeric": "^1.2.6",
+    "raf": "^3.4.0"
+  }
+}
